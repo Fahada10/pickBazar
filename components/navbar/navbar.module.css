@@ -1,0 +1,49 @@
+
+
+
+
+/* .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+border: solid red;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  border: solid red;
+} */
+.storeBtn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content: center;
+text-align: center;
+}
+.storeBtn:hover{
+  background-color: inherit;
+  box-shadow: none;
+}
+
+
+
+.storeBox::-webkit-scrollbar {
+  width: 0.5em; /* Adjust the width to your liking */
+}
+
+.storeBox::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the color of the thumb */
+}
+
+.storeBoxContain{
+  color: rgba(var(--text-base-dark), var(--tw-text-opacity));
+  
+}
+.storeBoxContain:hover{
+  color:#43ad5c ;
+  }
+
+  .about{
+    font-size: 15px;
+    color: black
+  }
+  .about:hover{
+    color:#43ad5c;
+    box-shadow: none;
+  }
