@@ -17,7 +17,7 @@ import Menu from '@mui/material/Menu';
 import Image from 'next/image';
 import coverPhoto  from "../../public/grocery.webp";
 import logo from "../../public/Logo-new.webp"
-
+import ProductSearchBar from '../searchProduct/SearchProduct';
 import { Accordion, AccordionDetails, AccordionSummary, Button, FormControl, Popover, Select, SelectChangeEvent, colors, makeStyles } from '@mui/material';
 import { faApple } from '@fortawesome/free-brands-svg-icons/faApple';
 // import MenuIcon from '@mui/icons-material/Menu';
@@ -201,9 +201,7 @@ console.log(open,"chalra")
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Box sx={{height:"100vh",position:"absolute",zIndex:"-1",width:"100%"}}>
-      <Image src={coverPhoto} alt={'chalkri ke nai'} style={{width:"100%",height:"100%",position:"absolute",top:"0",zIndex:-1}}></Image>
-      </Box>
+     <ProductSearchBar />
       <AppBar position="static" sx={{boxShadow:"none" }} >
         <Toolbar sx={{ background: "#fff",boxShadow:"none" }}>
           <Box display={'flex'} alignItems={"center"} gap={5} >

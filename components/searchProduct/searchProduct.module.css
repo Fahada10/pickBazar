@@ -1,0 +1,17 @@
+.searchContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .searchBtn:hover{
+background-color:#43ad5c ;
+box-shadow: none ;
+
+  }
+  .searchBtn{
+   box-shadow: none ;
+      }
+
